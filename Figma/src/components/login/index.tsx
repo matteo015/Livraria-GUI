@@ -12,10 +12,10 @@ export default function Login(){
                     <Feather name='user' size={100}/>
                 </View>
                 <View style={styles.userInfo}>
-                    <TextInput style={{opacity:0.6}}>User</TextInput>
+                    <TextInput style={{opacity:0.6}} placeholder="Username" />
                 </View>
                 <View style={styles.userInfo}>
-                    <TextInput style={{opacity:0.6}}>Password</TextInput>
+                    <TextInput style={{opacity:0.6}} placeholder="Password" />
                 </View>
                 <View style={styles.userResult}>
                     <TouchableOpacity>

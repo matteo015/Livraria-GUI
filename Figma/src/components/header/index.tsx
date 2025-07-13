@@ -11,7 +11,7 @@ export default function Header(){
                 <TouchableOpacity>
                     <Feather name='search' size={30} style={{opacity: 0.7}}/>
                 </TouchableOpacity>
-                <TextInput style={{opacity: 0.5, fontSize:14}}>Search</TextInput>
+                <TextInput style={{opacity: 0.5, fontSize:14}} placeholder='Search'/>
             </View>
             <View style={styles.profilePic}>
                 <TouchableOpacity>
