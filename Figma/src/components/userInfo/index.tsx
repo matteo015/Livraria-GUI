@@ -2,8 +2,15 @@ import {Text, TouchableOpacity, View} from 'react-native'
 import { styles } from './styles'
 
 import { Feather, Fontisto, FontAwesome6 } from '@expo/vector-icons'
+import { useDatabase } from '@/database/useDatabase'
+import { useState } from 'react'
 
 export default function UserInfo(){
+    
+    const [name, set_name] = useState("")
+    const [email, set_email] = useState("")
+    const database = useDatabase()
+    
     return(
         <View style={styles.container}>
             <FontAwesome6 style={styles.edit} name='edit' size={40}/>
